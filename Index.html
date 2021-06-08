@@ -11,7 +11,6 @@
 	<p class="Title">Creer</p>
 
 	<form method="post" class="bordure">
-		<input type="text" name="METHOD" id="METHOD"> </br> 
     	<label for="NCLI">NCLI</label>
     	<input type="text" name="NCLI" id="NCLI"> </br>
     	<label for="NOM">NOM</label>
@@ -24,8 +23,9 @@
     	<input type="text" name="CAT" id="CAT"> </br>
     	<label for="COMPTE">COMPTE</label>
     	<input type="number" name="COMPTE" id="COMPTE"> </br>
-    	<button>Ajouter</button>
 	</form>
+	<button>OKEY</button>
+
 	<?php
 	require_once('DbOperations.php');
 	foreach($res as $client){
