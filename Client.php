@@ -23,35 +23,4 @@ class Client
     	$this->CAT($cat);
     	$this->COMPTE($compte);
 	}
-    //Setter
-	public function ADRESSE($adresse)
-	{
-    	$this->$_ADRESSE = $adresse;
-	}
-	public function NOM($nom)
-	{
-    	$this->$_NOM = $nom;
-	}
-
-	public function NCLI($ncli)
-	{
-    	$this->$_NCLI = $ncli;
-	}
-
-	public function LOCALITE($localite)
-	{
-    	$this->$_LOCALITE = $localite;
-	}
-
-
-	public function CAT($cat)
-	{
-    	$this->$_CAT = $cat;
-	}
-
-
-	public function COMPTE($compte)
-	{
-    	$this->$_COMPTE = $compte;
-	}
 }

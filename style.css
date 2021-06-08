@@ -5,3 +5,7 @@ p{
     text-align: center;
     background: yellowgreen;
 }
+table {
+    border-collapse:collapse;
+    width:90%;
+    }

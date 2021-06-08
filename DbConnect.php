@@ -18,8 +18,4 @@ include_once "Constantes.php";
             
     return $connexion;//Return  connexion 
 }
-function Disconect()
-{
-	$dsn = null;
-}
  ?>
