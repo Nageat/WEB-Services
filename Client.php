@@ -3,6 +3,8 @@
 include_once("Constantes.php");
 include_once("DbOperations.php"); 
 include_once("DbConnect.php"); 
+include_once("Client.php"); 
+
 
 
 class Client
